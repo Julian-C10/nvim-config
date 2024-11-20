@@ -1,3 +1,6 @@
+vim.g.mapleader = ' '
+vim.g.maplocalleader = ' '
+
 vim.keymap.set('n', '<leader>pv', vim.cmd.Ex)
 vim.g.have_nerd_font = false -- if you have a Nerd Font installed and selected in the terminal
 
