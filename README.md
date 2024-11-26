@@ -2,7 +2,7 @@
 
 ## Introduction
 
-A starting point for Neovim that is:
+Starting point for Neovim that is:
 
 * Small
 * Single-file
