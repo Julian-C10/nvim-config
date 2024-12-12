@@ -112,6 +112,14 @@ return {
       vim.keymap.set('n', '<leader>sn', function()
         builtin.find_files { cwd = vim.fn.stdpath 'config' }
       end, { desc = '[S]earch [N]eovim files' })
+
+      vim.keymap.set('n', '<leader>su', function()
+        builtin.find_files { cwd = 'C:\\Projects\\Confluence\\Unity' }
+      end, { desc = '[S]earch [U]nity files' })
+
+      vim.keymap.set('n', '<leader>sm', function()
+        builtin.find_files { cwd = 'C:/mine' }
+      end, { desc = '[S]earch [M]ine files' })
     end,
   },
 
