@@ -9,6 +9,9 @@ require('lazy').setup {
   require 'plugins.catppuccin',
   require 'plugins.toggleterm',
   require 'plugins.telescope',
+  require 'plugins.lsp',
+  require 'plugins.themes',
+  require 'plugins.mini',
   require 'plugins.treesitter',
 }
 
